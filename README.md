@@ -11,6 +11,7 @@ Instructions:
      python3  Down_save_strong_label.py Cough Sneeze Whistle
 
 to down load recordings with Cough,Sneeze and Whistle
+
 4. Output of code - 
       - Ten seconds  ./Audio_Segment_hard/ <Original Name> .mp3 : audio data with sample rate selected in code
       - Dictionary of the noises in record ./Audio_Segment_hard_labels/ <Original Name> .mp3.pickle : Dictionary with all noises in audio segment (notice that each recordings has a few noises type, some of them are not the ones you list for, but each recording has at least one noise type that is in your input list) each noise values are the onset and offset of noise, if noise appears more then ones, the length of value will be 2*k  number off appearence, and will list all onset and offset pairs.
