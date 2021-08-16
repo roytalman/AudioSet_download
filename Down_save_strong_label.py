@@ -1,3 +1,6 @@
+#Written by Roy Talman 16/8/2021
+# for more support contact roytalman@gmail.com
+
 from __future__ import unicode_literals
 import numpy as np
 import pandas as pd
